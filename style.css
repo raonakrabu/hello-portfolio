@@ -9,10 +9,16 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 30px;
+}
+h4{
+    font-size: 20px;
+}
 .orange-color{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 150px;
 }
@@ -35,9 +41,35 @@ section{
     color: rgb(74, 74, 240);
 }
 .Doraemon{
-    display: flex;
     background-image: url(header_bg.png);
     background-repeat: no-repeat;
     margin: 0%;
     background-position: right;
+}
+.box-shadow{
+    box-shadow: 10px 10px 40px rgb(143, 143, 156);
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10%;
+    border-radius: 5px;
+    padding: 10px;
+}
+.experience-area{
+    background-image: url(floral-bg2.jpg) ;
+    background-repeat: no-repeat;
+    margin: 0%;
+    background-position: left;
+}
+#border-web-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(salmon ,tomato)  ;
+    border-image-slice: 1;
+}
+#baby-web{
+    border-image: linear-gradient(blue ,cyan);
+    border-image-slice: 1;
+    border-left: 5px solid;
+}
+footer p{
+    text-align: center;
 }
